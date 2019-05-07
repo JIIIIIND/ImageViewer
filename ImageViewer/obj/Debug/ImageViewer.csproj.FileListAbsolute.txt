@@ -1,0 +1,14 @@
+c:\users\user\documents\visual studio 2017\Projects\ImageViewer\ImageViewer\bin\Debug\ImageViewer.exe.config
+c:\users\user\documents\visual studio 2017\Projects\ImageViewer\ImageViewer\bin\Debug\ImageViewer.exe
+c:\users\user\documents\visual studio 2017\Projects\ImageViewer\ImageViewer\bin\Debug\ImageViewer.pdb
+c:\users\user\documents\visual studio 2017\Projects\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\ImageViewer\ImageViewer\obj\Debug\ImageViewer.exe
+c:\users\user\documents\visual studio 2017\Projects\ImageViewer\ImageViewer\obj\Debug\ImageViewer.pdb
+C:\Users\user\documents\visual studio 2017\Projects\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.CoreCompileInputs.cache
+G:\백업용\Visual Studio 2017\Projects\ImageViewer\ImageViewer\bin\Debug\ImageViewer.exe.config
+G:\백업용\Visual Studio 2017\Projects\ImageViewer\ImageViewer\bin\Debug\ImageViewer.exe
+G:\백업용\Visual Studio 2017\Projects\ImageViewer\ImageViewer\bin\Debug\ImageViewer.pdb
+G:\백업용\Visual Studio 2017\Projects\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csprojAssemblyReference.cache
+G:\백업용\Visual Studio 2017\Projects\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.CoreCompileInputs.cache
+G:\백업용\Visual Studio 2017\Projects\ImageViewer\ImageViewer\obj\Debug\ImageViewer.exe
+G:\백업용\Visual Studio 2017\Projects\ImageViewer\ImageViewer\obj\Debug\ImageViewer.pdb
