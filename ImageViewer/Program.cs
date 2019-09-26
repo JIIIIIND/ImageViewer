@@ -12,8 +12,10 @@ namespace ImageViewer
         public static void Main(string[] args)
         {
             Program MainApp = new Program();
-            MainApp.Size = new Size(Screen.PrimaryScreen.Bounds.Width,Screen.PrimaryScreen.Bounds.Height);
-            MainApp.Location = new Point(0, 0);
+            MainApp.Size = new Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
+            //MainApp.MinimumSize = MainApp.Size;
+            //MainApp.MaximumSize = MainApp.Size;
+            MainApp.FormBorderStyle = FormBorderStyle.FixedSingle;
             MainApp.MaximizeBox = false;
             MainApp.Text = "ImageRandomViewer";
             MainApp.FormClosing += new FormClosingEventHandler(MainApp.close);

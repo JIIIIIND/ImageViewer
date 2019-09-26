@@ -19,7 +19,6 @@ namespace ImageViewer
                 return Update;
             }
         }
-
         public static string[] All_Img
         { get; set; }
 
@@ -133,33 +132,31 @@ namespace ImageViewer
 
         private void FullSizePicture(object sender, MouseEventArgs e)
         {
-            Control[] controls;
             if (fullsize == false)
             {
-                Console.WriteLine("Picture : {0}, {1} Main : {2}, {3}", Picture.Width, Picture.Height, MainApp.Width, MainApp.Height);
                 MainApp.FormBorderStyle = FormBorderStyle.None;
-                MainApp.Size = new Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
-                Picture.Width = Screen.PrimaryScreen.Bounds.Width;
-                Picture.Height = Screen.PrimaryScreen.Bounds.Height;
-                Console.WriteLine("Screen : {0}, {1}", Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
-                Console.WriteLine("Picture : {0}, {1} Main : {2}, {3}", Picture.Width, Picture.Height, MainApp.Width, MainApp.Height);
+                MainApp.WindowState = FormWindowState.Maximized;
+                Picture.Size = new Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
+                
                 Picture.Location = new Point(0, 0);
                 Picture.Left = 0;
                 Picture.Top = 0;
-                Picture.SizeMode = PictureBoxSizeMode.Zoom;
-
                 MainApp.Controls["DirTree"].Visible = false;
                 MainApp.Controls["Group"].Visible = false;
+                Picture.Dock = DockStyle.Fill;
+                Picture.SizeMode = PictureBoxSizeMode.Zoom;
                 fullsize = true;
             }
             else
             {
-                MainApp.FormBorderStyle = FormBorderStyle.Sizable;
+                MainApp.FormBorderStyle = FormBorderStyle.FixedSingle;
+                MainApp.WindowState = FormWindowState.Normal;
+                Picture.Dock = DockStyle.None;
                 SizeInitialize();
 
                 MainApp.Controls["DirTree"].Visible = true;
                 MainApp.Controls["Group"].Visible = true;
-
+                
                 fullsize = false;
             }
         }

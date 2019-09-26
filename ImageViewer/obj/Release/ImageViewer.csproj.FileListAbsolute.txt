@@ -1,0 +1,6 @@
+C:\Users\jinwo\Documents\ImageViewer\ImageViewer\bin\Release\ImageViewer.exe.config
+C:\Users\jinwo\Documents\ImageViewer\ImageViewer\bin\Release\ImageViewer.exe
+C:\Users\jinwo\Documents\ImageViewer\ImageViewer\bin\Release\ImageViewer.pdb
+C:\Users\jinwo\Documents\ImageViewer\ImageViewer\obj\Release\ImageViewer.csproj.CoreCompileInputs.cache
+C:\Users\jinwo\Documents\ImageViewer\ImageViewer\obj\Release\ImageViewer.exe
+C:\Users\jinwo\Documents\ImageViewer\ImageViewer\obj\Release\ImageViewer.pdb
